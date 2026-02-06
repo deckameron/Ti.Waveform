@@ -7,6 +7,7 @@ A powerful Titanium module for audio waveform visualization and recording on iOS
 ### Looking for the Android solution?
 -  Ti.Waveform for Android by [Michael Gangolf](https://github.com/m1ga) [https://github.com/m1ga/ti.waveform](https://github.com/m1ga/ti.waveform)
 
+
 ## Features
 
 ### Waveform Visualization
@@ -27,6 +28,12 @@ A powerful Titanium module for audio waveform visualization and recording on iOS
 - ✅ **Pause/Resume** - Control recording state
 - ✅ **Smooth animations** - Bars grow/shrink naturally during recording
 - ✅ **Dynamic normalization** - Adapts to audio level changes
+
+<p align="center">
+  <img src="https://github.com/deckameron/Ti.Waveform/blob/main/assets/waveform.png?raw=true"
+       width="300"
+       alt="Example" />
+</p>
 
 ## Requirements
 
