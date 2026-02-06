@@ -193,7 +193,7 @@ waveform.loadAudio({
 });
 ```
 
-#### `setProgress(progress, animated)`
+#### `seekToProgress(progress, animated)`
 
 Update playback progress.
 
@@ -203,7 +203,7 @@ Update playback progress.
 
 **Example:**
 ```javascript
-waveform.setProgress(0.5, true);
+waveform.seekToProgress(0.5, true);
 ```
 
 #### `startRecording()`
@@ -317,7 +317,7 @@ waveform.loadAudio({
 
 audioPlayer.addEventListener('progress', function(e) {
     const progress = e.progress / audioPlayer.duration;
-    waveform.setProgress(progress, false);
+    waveform.seekToProgress(progress, false);
 });
 
 waveform.addEventListener('seek', function(e) {
@@ -441,7 +441,7 @@ waveform.loadAudio({
 });
 
 audioPlayer.addEventListener('progress', function(e) {
-    waveform.setProgress(e.progress / audioPlayer.duration, false);
+    waveform.seekToProgress(e.progress / audioPlayer.duration, false);
 });
 
 waveform.addEventListener('seek', function(e) {
@@ -498,7 +498,7 @@ let lastUpdate = 0;
 audioPlayer.addEventListener('progress', function(e) {
     const now = Date.now();
     if (now - lastUpdate > 100) {
-        waveform.setProgress(e.progress / audioPlayer.duration, true);
+        waveform.seekToProgress(e.progress / audioPlayer.duration, true);
         lastUpdate = now;
     }
 });

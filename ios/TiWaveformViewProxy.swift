@@ -193,7 +193,7 @@ class TiWaveformViewProxy: TiViewProxy {
             animated = anim
         }
         
-        waveformView?.setProgress(NSNumber(value: Float(progress)), animated: animated)
+        waveformView?.setProgressValue(progress, animated: animated)
     }
     
     /// Start recording

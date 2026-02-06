@@ -174,6 +174,10 @@ class TiWaveformView: TiUIView {
         waveformView.setProgress(value, animated: animated)
     }
     
+    func setProgressValue(_ value: CGFloat, animated: Bool) {
+        waveformView.setProgress(value, animated: animated)
+    }
+    
     func startRecording() {
         waveformView.startRecording()
     }
