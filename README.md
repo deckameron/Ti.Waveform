@@ -321,7 +321,7 @@ audioPlayer.addEventListener('progress', function(e) {
 });
 
 waveform.addEventListener('seek', function(e) {
-    audioPlayer.setTime(e.progress * audioPlayer.duration);
+    audioPlayer.seekToTime(e.progress * audioPlayer.duration);
 });
 
 const playButton = Ti.UI.createButton({
@@ -445,7 +445,7 @@ audioPlayer.addEventListener('progress', function(e) {
 });
 
 waveform.addEventListener('seek', function(e) {
-    audioPlayer.setTime(e.progress * audioPlayer.duration);
+    audioPlayer.seekToTime(e.progress * audioPlayer.duration);
 });
 
 win.add(waveform);
