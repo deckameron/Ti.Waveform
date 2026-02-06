@@ -30,7 +30,10 @@ A powerful Titanium module for audio waveform visualization and recording on iOS
 - ✅ **Dynamic normalization** - Adapts to audio level changes
 
 <p align="center">
-  <img src="https://github.com/deckameron/Ti.Waveform/blob/main/assets/waveform.png?raw=true"
+  <img src="https://github.com/deckameron/Ti.Waveform/blob/main/assets/waveform_1.png?raw=true"
+       width="300"
+       alt="Example" />
+  <img src="https://github.com/deckameron/Ti.Waveform/blob/main/assets/waveform_2.png?raw=true"
        width="300"
        alt="Example" />
 </p>
