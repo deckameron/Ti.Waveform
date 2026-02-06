@@ -1,0 +1,19 @@
+#
+# this is your module manifest and used by Titanium
+# during compilation, packaging, distribution, etc.
+#
+version: 1.0.0
+apiversion: 2
+architectures: arm64 x86_64
+mac: false
+description: Ti.Waveform
+author: Douglas Alves
+license: MIT
+copyright: Copyright (c) 2026 by Upflix Inc.
+
+# these should not be edited
+name: Ti.Waveform
+moduleid: ti.waveform
+guid: b79d717a-8761-42fc-8c95-0d612bb3006a
+platform: iphone
+minsdk: 13.1.0.GA

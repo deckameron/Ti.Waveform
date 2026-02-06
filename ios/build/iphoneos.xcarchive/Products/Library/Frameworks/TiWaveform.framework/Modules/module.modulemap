@@ -1,0 +1,11 @@
+framework module TiWaveform {
+  umbrella header "TiWaveform.h"
+  export *
+
+  module * { export * }
+}
+
+module TiWaveform.Swift {
+  header "TiWaveform-Swift.h"
+  requires objc
+}
