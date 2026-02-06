@@ -51,9 +51,11 @@ playbackWaveform.addEventListener('loadingComplete', () => {
 });
 
 const audio_source = Ti.Filesystem.resourcesDirectory + 'assets/audio/design_aesthetics.mp3'
+// OR
+// const audio_source ="/assets/audio/design_aesthetics.mp3"
 
 const audioPlayer = Titanium.Media.createAudioPlayer({
-    url: "/assets/audio/design_aesthetics.mp3",
+    url: audio_source,
     allowBackground: true
 });
 
